@@ -1,6 +1,6 @@
 # build
 ```
-docker build . --tag fb-status
+docker build . --tag fb-grafana
 ```
 
 # run
