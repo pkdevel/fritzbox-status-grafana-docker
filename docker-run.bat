@@ -1,4 +1,4 @@
-docker run --name fb-grafana ^
+docker run -d --name fb-grafana ^
         -p 3000:3000 ^
         -v %cd%\conf/collectd.conf:/etc/collectd/collectd.conf.d/collectd.conf ^
         -v %cd%\conf/influxdb.conf:/etc/influxdb/influxdb.conf ^
