@@ -1,3 +1,9 @@
+packed this guide into a docker image:
+https://blog.butenostfreesen.de/2018/10/11/Fritz-Box-Monitoring-mit-Grafana-und-Raspberry/
+
+# config
+edit 'conf/collectd.conf' and set your fritz box's hostname and credentials
+
 # build
 ```
 docker build . --tag fb-grafana
