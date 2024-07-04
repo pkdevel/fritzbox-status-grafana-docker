@@ -1,6 +1,6 @@
 #!/bin/sh
 
-docker run --name fb-grafana \
+docker run -d --name fb-grafana \
         -p 3000:3000 \
         -v $(pwd)/conf/collectd.conf:/etc/collectd/collectd.conf.d/collectd.conf \
         -v $(pwd)/conf/influxdb.conf:/etc/influxdb/influxdb.conf \
